@@ -1,0 +1,17 @@
+server:
+  port: 8764
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://admin:admin123@127.0.0.1:8761/eureka/
+
+  instance:
+    #虚拟主机名
+    virture-host-name: service-provider
+
+spring:
+
+
+  application:
+    name: service-provider
